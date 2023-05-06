@@ -1,5 +1,7 @@
 #include "rectangle.h"
 
+int rectangle::count = 0;
+
 int rectangle::get_a() {
 	return a;
 }
